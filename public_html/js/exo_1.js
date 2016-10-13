@@ -19,7 +19,7 @@ var nbe;
             } else if (nb < nbe) {
                 alert("trop grand! tu as le droit a : "+ (3-coup)+" coup");
             }
-            if (coup>2) {alert("perdu"); break; }
+            if (coup>2) {alert("perdu, le nb était:" +nb); break; }
         } while (nb != nbe); 
                              if (coup<3) {appreciation="gagné"; 
         }

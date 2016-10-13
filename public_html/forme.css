@@ -59,6 +59,14 @@ img {
 
 div first {
     border-style: solid;
-    border: 2;
+    border-radius: 5;
     border-color: pink;
+}
+
+.titre{
+    text-transform: capitalize;
+}
+
+.menu{
+    text-transform: uppercase;
 }
